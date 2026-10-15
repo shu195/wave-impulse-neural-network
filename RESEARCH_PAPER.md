@@ -1,6 +1,6 @@
 # Theoretical & Physical Analysis: Physical Wave Impulse Neural Network (WINN)
 
-**Author:** Shubham Barmase & Antigravity AI  
+**Author:** Shubham Barmase  
 **Repository:** [wave-impulse-neural-network](https://github.com/shu195/wave-impulse-neural-network)  
 **Date:** October 2026  
 
