@@ -1,0 +1,11 @@
+# Ignore large raw datasets and compiled binaries
+mnist_raw/
+mnist_data/
+*.exe
+*.o
+*.obj
+*.bin
+__pycache__/
+*.pyc
+.vscode/
+.idea/
