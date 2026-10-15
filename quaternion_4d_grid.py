@@ -1,6 +1,7 @@
 """
-4D Quaternion Multidirectional Grid with Structural Pruning
-Demonstrates 75% parameter reduction via Hamilton algebra and +0.4% accuracy boost via 70% structural pruning.
+4D Quaternion (Hamilton product) layer demo.
+Shows the parameter count: 4 per connection vs 16 for a full 4x4 matrix. This file contains no pruning
+code and makes no accuracy claim; see README for what was (weakly) measured.
 """
 
 import torch

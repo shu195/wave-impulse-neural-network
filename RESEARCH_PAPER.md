@@ -1,6 +1,13 @@
 # Theoretical & Physical Analysis: Physical Wave Impulse Neural Network (WINN)
 
-**Author:** Shubham Barmase  
+> **WARNING (2026-10-16): speculative notes, NOT verified.** The "zero backprop" and
+> "O(1) memory" framing below was retracted: the update rule that reaches ~98% MNIST is a
+> hand-written backprop (see README and `verify_backprop_equivalence.py`). The numerical
+> claims below (echo-decay factors, SNR gains, comparison-table accuracies for other methods)
+> were not independently reproduced, and the stability proof is a sketch that has not been
+> checked. Treat everything here as hypotheses.
+
+**Author:** github.com/shu195  
 **Repository:** [wave-impulse-neural-network](https://github.com/shu195/wave-impulse-neural-network)  
 **Date:** October 2026  
 

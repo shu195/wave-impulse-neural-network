@@ -7,7 +7,8 @@
 #include <algorithm>
 #include <cstdint>
 
-// High-performance C++ implementation of Wave Impulse Neural Network (Zero Backprop, O(1) activation RAM)
+// C++ MLP trained with a hand-written backpropagation (the "echo" delta rule below IS the chain rule;
+// see verify_backprop_equivalence.py). It stores per-layer activations, so it is NOT O(1) memory.
 // Tests scaling depth and width bit-by-bit:
 // Stage 1: 1 Hidden Layer (784 -> 256 -> 10)
 // Stage 2: 2 Hidden Layers (784 -> 512 -> 256 -> 10)

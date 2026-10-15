@@ -1,6 +1,7 @@
 """
-Physical Wave Impulse Neural Network: Full MNIST Benchmark (Zero Backprop)
-Achieves 98.26% test accuracy on 60,000 MNIST digits without autograd or gradient caching.
+3-layer MNIST network trained with a hand-written backpropagation (no autograd library).
+The "echo" delta rule below is exactly the chain rule (see verify_backprop_equivalence.py),
+so ~98% accuracy is ordinary backprop performance, not a backprop-free result.
 """
 
 import gzip
